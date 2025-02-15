@@ -55,8 +55,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #3a3a3a62;
-    backdrop-filter: blur(10px);
+    background: #3a3a3a00;
+    backdrop-filter: blur(2px);
     color: var(--secColor);
     z-index: 100;
 }

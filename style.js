@@ -5,7 +5,7 @@ var typed = new Typed('#units', {
         'Media Promotions', 
         'TV', '360 Degree Ads', 'Outdoor Ads', 'Indoor Ads', 'Posters', 'Banners', 'Our Of Homes', 'Brand Activation', 'Brand Design', 'Promo Items', 'Event Planning'],
     typeSpeed: 50,
-    backSpeed: 50,
+    backSpeed: 40,
     loop: true
 });
  
