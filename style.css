@@ -8,8 +8,8 @@
 body {
     
     font-family: Poppins, sans-serif;
-    margin-bottom: 500px;
-
+/*     margin-bottom: 500px;
+ */
 }
 
 /* CSS Variables */
@@ -700,7 +700,130 @@ gap: 20%;
 }
     
 
+.footer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: .5vw 5vw;
+/*     gap: 3px;
+ */}
+.upper, .lower{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upper{
+background-color: #ffffff;
+}
+.lower{
+    background-color: var(--BlaGB);
+}
+.lower p{
+    color: var(--textColorw);
+}
 
+
+.seenEnough, .footerContact,.contactIcon, .contactIconBot{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0vw 3vw;
+    background-color: #00a2ff09;
+
+}
+.seenEnough p{
+    font-weight: 500;
+    line-height: 16px;
+}
+.footerContact h1{
+font-weight: 500;
+font-size: 3vw;
+line-height: 16px;
+text-decoration: underline #00a2ff 3px;
+}
+
+.contactIcon{
+    justify-content: end;
+}
+
+.contactIcon a{
+    text-decoration: none;
+    font-size: 3vw;
+    background-color: var(--BlaGB);
+    padding: 1vw 1.7vw;
+    border-radius: 50%;
+    color: var(--priColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.contactIcon a:hover {
+    font-size: 2.5vw;
+    background-color: var(--priColor);
+    color: var(--textColorw);
+
+}
+
+.seenEnough2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 2vw;
+
+}
+
+.footerContact2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+#footerLogos{
+    flex: 1;
+    height: 100%;
+    border: #fff solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+}
+
+#footerCatchPhrase{
+    font-size: 2.5vw;
+    line-height: 3vw;
+    font-weight: 300;
+}
+#footerCatchPhrase span{
+color: var(--priColor);
+}
+
+#socials{
+    font-weight: 300;
+}
+#socials span{
+    color: var(--priColor);
+}
+
+#footerLogos{
+width: 30%;
+}
 
 
 
