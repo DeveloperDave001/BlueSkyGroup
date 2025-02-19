@@ -9,7 +9,7 @@ var typed = new Typed('#units', {
     loop: true
 });
  
-// Autotyped Text Effect
+// Autotyped Text Effect2
 
 var typed = new Typed('#units2', {
     strings: ['', 'Models & Ushers', 'Print House', 
@@ -19,6 +19,7 @@ var typed = new Typed('#units2', {
     backSpeed: 40,
     loop: true
 });
+ 
  
 
 /* Slider */
@@ -58,3 +59,47 @@ next2.addEventListener('click', function() {
     let slides2 = document.querySelectorAll('.slides-2');
     slider2.prepend(slides2[slides2.length - 1]); 
 });
+
+
+
+// Function to animate the counter
+function animateCounter() {
+    const counterElement = document.getElementById('counter');
+    let count = 0;
+
+    // GSAP animation
+    const tl = gsap.timeline({
+        onUpdate: function() {
+            counterElement.innerText = Math.floor(count);
+        },
+        onComplete: function() {
+            // Fade out the preloader
+            gsap.to('.preLoader', {
+                duration: 1,
+                opacity: 0,
+                onComplete: function() {
+                    // Hide preloader and show content
+                    document.getElementById('preloader').style.display = 'none';
+                    document.getElementById('content').style.display = 'block';
+                }
+            });
+        }
+    });
+
+    // Animate from 0 to 100 over 2 seconds
+    tl.to({}, {
+        duration: 2,
+        onUpdate: function() {
+            count += 50; // Increment by 50 for smoother animation
+            if (count > 100) count = 100; // Cap at 100
+        },
+        onComplete: function() {
+            count = 100; // Ensure it ends at 100
+        }
+    });
+}
+
+// Start the animation when the window loads
+window.onload = function() {
+    animateCounter();
+}; 

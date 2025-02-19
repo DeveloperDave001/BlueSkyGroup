@@ -1,0 +1,22 @@
+.headSection{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #f70707 solid;
+    background-color: green;
+}
+
+.map{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0vw;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}

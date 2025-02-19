@@ -39,11 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-/*     border-radius: 0px 0px 0px 20vw;
-    -webkit-border-radius: 0px 0px 0px 20vw;
-    -moz-border-radius: 0px 0px 0px 20vw;
-    -ms-border-radius: 0px 0px 0px 20vw;
-    -o-border-radius: 0px 0px 0px 20vw; */
+
 }
 
 /* Nav Menu Header CSS */
@@ -73,8 +69,7 @@ body {
 }
 
 nav{
-/*     border: #fff solid 2px;
- */    width: 60%;
+   width: 60%;
  flex-wrap: wrap;
 }
 nav ul{
@@ -120,15 +115,7 @@ nav ul li a:hover{
     } 
 
 
-/* Keep this part, you will need it for a particular effect */
-/* .hero1::after{
-    content: "";
-    position: absolute;
-    background-color: transparent;
-    border: 2px solid var(--priColor);
-    width: 100%;
-    height: 100%;
-} */
+
 
 /* Catch Phrase CSS */
 .catchPhrase{
@@ -512,7 +499,7 @@ gap: 20%;
 
 .eCatalogue-SlidesBreak{
     margin: auto;
-    background-color: var(--WhiBg);
+    background-color: transparent;
     width: 70%;
     height: 20vh;
     display: flex;
@@ -798,7 +785,6 @@ text-decoration: underline #00a2ff 3px;
 #footerLogos{
     flex: 1;
     height: 100%;
-    border: #fff solid 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -823,9 +809,82 @@ color: var(--priColor);
 
 #footerLogos{
 width: 30%;
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+padding: 4vw;
+gap: .5vw;
+}
+.otherLogos, .majorLogo{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otherLogos a{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.otherLogos a img{
+    width: 60px;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    border: var(--priColor) 0px solid;
+    box-shadow: var(--priColor) 0 0 0px, var(--priColor) 0 0 0px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.otherLogos a img:hover{
+    width: 50px;
+     border: var(--priColor) 2px solid;
+     border-radius: 50%;
+    box-shadow: var(--priColor) 0 0 20px, var(--priColor) 0 0 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.majorLogo a{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.majorLogo a img{
+    width: 100%;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+}
+.majorLogo a img:hover{
+    width: 90%;
 }
 
 
+/* Disclaimer */
+.discalimer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discalimer p{
+    text-align: center;
+}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
