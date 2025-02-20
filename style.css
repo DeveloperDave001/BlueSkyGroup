@@ -52,7 +52,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #dbdbdb17;
+    background: #ffffff93;
     backdrop-filter: blur(2px);
     color: var(--secColor);
     z-index: 100;
@@ -94,6 +94,7 @@ nav ul li a, .re-used{
      -moz-border-radius: 5px;
      -ms-border-radius: 5px;
      -o-border-radius: 5px;
+     color: #3a3a3a;
 }
 
 nav ul li a:hover{

@@ -22,7 +22,7 @@ var typed = new Typed('#units2', {
  
  
 
-/* Slider */
+/* Slider-Show 1s Interval */
 const slides = document.querySelectorAll('.slide');
 let currentSlide = 0;
 
