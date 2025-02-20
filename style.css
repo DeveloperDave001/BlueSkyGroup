@@ -52,7 +52,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffffff93;
+    background: #ffffff25;
     backdrop-filter: blur(2px);
     color: var(--secColor);
     z-index: 100;
@@ -180,8 +180,8 @@ nav ul li a:hover{
     font-size: 20px;
 }
 .AboutImg{
-/*     border: #3a3a3a solid 2px;
- */    flex: 1;
+    /*border: #3a3a3a solid 2px;
+    */flex: 1;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -193,6 +193,18 @@ nav ul li a:hover{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    border: var(--priColor) 0px solid;
+}
+.hero2:hover .AboutImg{
+    scale: 1.05;
+    border: var(--priColor) 2px solid;
+    box-shadow: #03030394 10px 10px 5px;
+
 }
 .slider {
     display: flex;
@@ -255,7 +267,10 @@ backdrop-filter: blur(.5rem);
 }
 
 .blue {
-    color: #00a2ff;
+    color: var(--priColor);
+}
+.gray{
+color: var(--priColor2);
 }
 
     /* hero4 */
