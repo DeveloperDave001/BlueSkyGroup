@@ -103,3 +103,7 @@ function animateCounter() {
 window.onload = function() {
     animateCounter();
 }; 
+
+
+
+

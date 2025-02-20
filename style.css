@@ -78,7 +78,7 @@ nav ul{
     list-style: none;
     gap: 4vw;
 }
-nav ul li a{
+nav ul li a, .re-used{
      text-decoration: none;
      color: var(--textColorw);
      border-radius: 5px;
