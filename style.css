@@ -10,6 +10,7 @@ body {
     font-family: Poppins, sans-serif;
 /*     margin-bottom: 500px;
  */
+ overflow-x: hidden;
 }
 
 /* CSS Variables */
@@ -192,7 +193,7 @@ nav ul li:hover .dropdown_menu{
     color: var(--textColorw);
     width: 65%;
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
    
 }
 
@@ -505,6 +506,7 @@ color: var(--priColor2);
     text-align: left;
     margin-top: 10px;
     width: 350px;
+    text-align: center;
 }
 .cardInfo p{
     text-align: left;
@@ -513,10 +515,12 @@ color: var(--priColor2);
     margin-top: 0;
     width: 350px;
     color: var(--textColorw);
+    text-align: center;
+
 }
 
 .GeneralButton{
-    width: 60%;
+    width: 50%;
     /*border: #3a3a3a solid 2px;
     */display: flex;
     align-items: center;
@@ -913,10 +917,6 @@ gap: .5vw;
     -o-transition: .3s all;
     border: var(--priColor) 0px solid;
     box-shadow: var(--priColor) 0 0 0px, var(--priColor) 0 0 0px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 .otherLogos a img:hover{
     width: 50px;
@@ -960,7 +960,179 @@ gap: .5vw;
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+
+
+
+
+
+/* Media Queries */
+@media only screen and (width >= 2200px) {
+
+
+    .header{
+        background-color: #fff;
+    }
+    .header a{
+        color: var(--textColor);
+        font-size: 1.3vw;
+    }
+    .header a:hover{
+        font-size: 1.1vw;
+    }
+
+
+    .Companylogo{
+        width: 10vw;
+    }
+
+.dropdown_menu{
+    width: 500px;
+}
+.dropdown_menu ul li{
+    width: 100%;
+}
+.subAction p{
+    font-size:35px;
+    text-align:left;
+}
+
+
+.GeneralButton {
+    font-size: 35px;
+    width: 350px;
+}
+
+.GeneralButton:hover{
+    font-size:40px;
+}
+
+.About p{
+    font-size: 40px;
+}
+
+.hero2{
+    height:70vh;
+}
+.hero4Heading{
+    height: 60px;
+}
+.hero4Heading p{
+    font-size:40px;
+    font-weight: bold;
+}
+.clients{
+    background: var(--bgColor);
+}
+.clients img{
+    width: 40%;
+}
+.clients p{
+    font-size:30px;
+}
+
+.cardInfo {
+    height: 60%;
+}
+.cardInfo div{
+    flex-flow:column wrap;
+}
+
+.cardInfo div h1{
+   font-size: 40px;
+   width:100%;
+   text-align: center;
+}
+.cardInfo div p{
+    font-size:30px;
+    width:100%;
+    line-height: 29px;
+    text-align:center;
+ }
+ .slider-box-2 p{
+    font-size:40px;
+ }
+ .slider-2 .slides-2:nth-child(3) {
+    left: calc(66% + 600px);
+    background-size: cover;
+}
+.button-2 span{
+    width:100px;
+    height:100px;
+}
+.seenEnough p{
+    font-size:40px;
+    line-height: 39px;
+}
+#socials{
+    font-size:30px;
+}
+}
+
+@media only screen and (width >= 1300px) {
+    .GeneralButton {
+        width: 350px;
+    }
+
+    .hero2{
+        height:75vh;
+    }
+
+    .cardInfo{
+        height:60%;
+    }
+
+}
+
+@media only screen and (width >= 1110px) {
+    .GeneralButton {
+        width: 350px;
+    }
+
+    .hero2{
+        height:75vh;
+    }
+
+    .cardInfo{
+        height:60%;
+    }
+    .cardInfo div h1{
+        font-size:23px;
+        text-align: center;
+    }
+    #socials{
+        font-size: 14px;
+    }
+    .otherLogos a img{
+        width:50px;
+    }
+
+}
+
+@media (width >= 1000px){
+.subAction{
+    width:100%;
+}
+.hero2{
+    height:65vh;
+}
+.clients img{
+    width:35%;
+}
+
+    .clients p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .cardinfo{
+        height:60%;
+    }
+    .cardInfo h1 {
+        font-size: 18px;
+    }
+}
+    
+@media (width <= 768px) {
     .header {
         padding: 1rem;
     }
@@ -968,7 +1140,17 @@ gap: .5vw;
     .nav-list {
         gap: 1rem;
     }
+
+
+.majorLogo{
+    width:400px;
 }
+.otherLogos a img{
+    width:100px;
+}
+}
+
+
 
 @media (max-width: 480px) {
     .logo-container {
@@ -981,19 +1163,3 @@ gap: .5vw;
     }
 }
 
-/* Typed.js Cursor Styles */
-/* .typed-cursor {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: currentColor;
-    border-radius: 50%;
-    margin-left: 5px;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-} */
