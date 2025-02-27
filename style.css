@@ -600,7 +600,10 @@ gap: 20%;
     transition: .5s;
     border: var(--priColor) solid 2px;
     box-shadow: #16161681 15px 20px 10px;
-
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 .slider-2 .slides-2:nth-child(1),
@@ -612,10 +615,14 @@ gap: 20%;
     height: 100%;
     transform: translateY(0);
     background-size: cover;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
 }
 
 .slider-2 .slides-2:nth-child(3) {
-    left: calc(50% + 240px);
+    left: calc(66% + 240px);
     background-size: cover;
 }
 
