@@ -12,15 +12,7 @@
     --WhiBg: #ffffff;
 }
 
-.headSection{
-    width: 100%;
-    height: 50vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: #f70707 solid;
-    background-color: green;
-}
+
 
 .map{
     width: 100%;
@@ -37,7 +29,7 @@
 .about-header{
     width: 100%;
     height: 20vw;   
-    background-color: var(--priColorFade3);
+    background-color: var(--priColor2);
      display: flex;
     align-items: center;    
     justify-content: center;
@@ -98,31 +90,34 @@
 }
 
 #myVideo{
-    flex: 1;
     width: 100%;
     height: 100%;
-    border: var(--priColor) 5px solid;
+    border: var(--priColor) 2px solid;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+   
 }
 
 .units-info{
-    flex: 1;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
     gap: 1vw;
-    text-align: center;
+    text-align: left;
 }
 
 .units-info h1{
     color: #3a3a3a;
     line-height: 2vw;
     font-size: 2vw;
+    text-align: left;
+    width: 100%;
+
 }
 
 .units-heading{

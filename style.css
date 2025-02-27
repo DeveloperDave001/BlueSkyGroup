@@ -94,7 +94,6 @@ nav ul li a, .re-used{
      -moz-border-radius: 5px;
      -ms-border-radius: 5px;
      -o-border-radius: 5px;
-     color: #3a3a3a;
 }
 
 nav ul li a:hover{
@@ -119,11 +118,16 @@ nav ul li{
     top: 100%;
     background: #f3f3f3;
     border:1px solid #00a2ff ;
+    border-radius: 0px 10px 10px 10px;
     transition: .3s all;
     -webkit-transition: .3s all;
     -moz-transition: .3s all;
     -ms-transition: .3s all;
     -o-transition: .3s all;
+    -webkit-border-radius: 0px 10px 10px 10px;
+    -moz-border-radius: 0px 10px 10px 10px;
+    -ms-border-radius: 0px 10px 10px 10px;
+    -o-border-radius: 0px 10px 10px 10px;
 }
 .dropdown_menu{
     display: none;
@@ -139,6 +143,9 @@ nav ul li:hover .dropdown_menu{
 .dropdown_menu ul li{
     padding: 5px;
     width:230px;
+}
+.dropdown_menu ul li a{
+    color: var(--textColor);
 }
 
 .logo1{
@@ -346,8 +353,8 @@ color: var(--priColor2);
         border-radius: 10px;
         display: flex;
         align-items: center;
-        justify-content: left;
-        padding: 2vw;
+        justify-content: center;
+        padding: 1.3vw;
         gap: 1vw;
         flex-flow: row wrap;
         background-image: linear-gradient(#fffffffb, #b9e5ff), url(pattern.png);
@@ -358,8 +365,12 @@ color: var(--priColor2);
         -o-border-radius: 10px;
 }
 
+.clients p{
+    text-align: center ;
+}
+
     .clients img {
-        width: 70%;
+        width: 40%;
         object-fit: cover;
     }
 
