@@ -27,7 +27,7 @@ body {
 
 /* Hero1 Styling */
 .hero1 {
-    background: linear-gradient(90deg, rgba(36, 36, 36, 0.541), #3a3a3a54), url(pablo-lancaster-jones-j9blCRSZ_Q4-unsplash.jpg);
+    background: linear-gradient(90deg, rgba(36, 36, 36, 0.541), #3a3a3a54), url(jacek-dylag-P1djASp78Ss-unsplash.jpg);
    
     background-position: center;
     background-repeat: no-repeat;
@@ -117,7 +117,8 @@ nav ul li{
     position: absolute;
     left: 0;
     top: 100%;
-    background: #bdbdbd;
+    background: #f3f3f3;
+    border:1px solid #00a2ff ;
     transition: .3s all;
     -webkit-transition: .3s all;
     -moz-transition: .3s all;
