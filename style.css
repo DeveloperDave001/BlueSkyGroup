@@ -1102,9 +1102,21 @@ gap: .5vw;
     #socials{
         font-size: 14px;
     }
-    .otherLogos a img{
-        width:50px;
-    }
+ 
+    .seenEnough2{
+    width: 20%;
+   }
+
+   .majorLogo a img{
+    width: 60%;
+}
+.otherLogos{
+        width: 75%;
+}
+
+.otherLogos a img{
+    width:45px;
+}
 
 }
 
@@ -1132,7 +1144,7 @@ gap: .5vw;
     }
 }
     
-@media (width <= 768px) {
+@media (width >= 768px) {
     .header {
         padding: 1rem;
     }
@@ -1140,19 +1152,31 @@ gap: .5vw;
     .nav-list {
         gap: 1rem;
     }
-
-
-.majorLogo{
-    width:400px;
 }
+#socials{
+    font-size: 14px;
+}
+
+.seenEnough2{
+width: 20%;
+}
+
+.majorLogo a img{
+width: 60%;
+}
+.otherLogos{
+    width: 75%;
+}
+
 .otherLogos a img{
-    width:100px;
+width:45px;
 }
-}
+    
 
 
 
-@media (max-width: 480px) {
+
+@media (max-width >=480px) {
     .logo-container {
         max-width: 120px;
     }
