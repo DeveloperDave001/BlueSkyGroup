@@ -59,6 +59,10 @@ body {
     z-index: 100;
 }
 
+.header_mobile{
+    display: none;
+}
+
 
 .logo-container {
     max-width: 150px;
@@ -105,6 +109,9 @@ nav ul li a:hover{
 
 nav ul li{
     position: relative;
+}
+.mobile{
+    display: none;
 }
 
 
@@ -229,7 +236,7 @@ nav ul li:hover .dropdown_menu{
 .AboutImg{
     /*border: #3a3a3a solid 2px;
     */flex: 1;
-    height: 100%;
+    height: 85%;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -1120,6 +1127,34 @@ gap: .5vw;
 
 }
 
+
+@media only screen and (width >= 1080px){
+    .otherLogos{
+        width:100%;
+        margin: 10px;
+}
+#socials{
+    font-size: 12px;
+}
+
+.otherLogos a img{
+    width:40px;
+}
+}
+
+@media only screen and (width >= 1024px){
+    #socials{
+        font-size: 12px;
+    } 
+    .otherLogos a img{
+        width:40px;
+    }
+    .otherLogos{
+        width:100%;
+        margin: 10px;
+}
+}
+
 @media (width >= 1000px){
 .subAction{
     width:100%;
@@ -1142,48 +1177,342 @@ gap: .5vw;
     .cardInfo h1 {
         font-size: 18px;
     }
+    .header{
+        display: flex;
+       
+    }
+    
 }
-    
-@media (width >= 768px) {
-    .header {
-        padding: 1rem;
+
+@media only screen and (width <= 991px){
+.hero2{
+    height: 70vh;
+}
+.clients img{
+    width:30%;
+}
+.clients p{
+    font-size: 12px;
+}
+.cardInfo h1{
+    font-size: 20px;
+}
+.cardInfo p{
+    font-size: 13px;
+}
+}
+.cardInfo .GeneralButton{
+    width: 130px;
+
+}
+.cardInfo .GeneralButton img{
+    display: none;
+}
+.footer{
+    height: 50vh;
+}
+.upper{
+    display: none;
+}
+#socials{
+font-size: 12px;
+}
+.otherLogos a img{
+    width:40px;
+}
+.otherLogos{
+    width:100%;
+    margin: 10px;
+}
+
+
+@media (width <= 885px){
+    body{
+        overflow-x: hidden;
+        position: relative;
+      }
+
+.mobile{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    z-index: 9999;
+}
+
+    .mobile_header_for_logo_menu{
+        background-color: transparent;
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        padding: 10px 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
-    
-    .nav-list {
-        gap: 1rem;
+    .menu-btn{
+        width: 60px;
+        height: 100%;
+        background-color: transparent;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s all;
+        -webkit-transition: .3s all;
+        -moz-transition: .3s all;
+        -ms-transition: .3s all;
+        -o-transition: .3s all;
+        position: relative;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+.menu-icon, .menu-icon::before, .menu-icon::after{
+width: 40px;
+height: 4px;
+background-color: var(--priColor);
+position: absolute;
+transition: .3s all;
+}
+
+.menu-icon::before, .menu-icon::after{
+    content: "";
+}
+
+.menu-icon::before{
+    transform: translate(0px, 15px);
+    -webkit-transform: translate(0px, 15px);
+    -moz-transform: translate(0px, 15px);
+    -ms-transform: translate(0px, 15px);
+    -o-transform: translate(0px, 15px);
+}
+.menu-icon::after{
+    transform: translate(-0px, -15px);
+    -webkit-transform: translate(-0px, -15px);
+    -moz-transform: translate(-0px, -15px);
+    -ms-transform: translate(-0px, -15px);
+    -o-transform: translate(-0px, -15px);
+}
+
+    .mobile_logo{
+        width: 100%;
     }
+    .mobile_logo img{
+        width: 100px;
+    }
+
+    .header{
+        display: none;
+       
+    }
+
+    .header_mobile{
+        background-color: var(--priColor);
+        position: absolute;
+        display: flex;
+        transform: translateX(500px);
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        padding: 20px 0px;
+        transition: .3s all;
+        -webkit-transition: .3s all;
+        -moz-transition: .3s all;
+        -ms-transition: .3s all;
+        -o-transition: .3s all;
+        -webkit-transform: translateX(500px);
+        -moz-transform: translateX(500px);
+        -ms-transform: translateX(500px);
+        -o-transform: translateX(500px);
+        animation: slideIn 1sec;
+}
+
+    .header_mobile nav{
+        height: 100%;
+    }
+    .header_mobile nav ul{
+    
+        display: flex;
+        height: 100%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_mobile nav ul a{
+        font-size: 22px;
+    }
+    .header_mobile nav ul a:hover{
+        font-size: 20px;
+        color: var(--textColor);
+    }
+
+  
+    .dropdown_menu{
+        z-index: 3;
+        transform: translate(-240px, -100px);
+        -webkit-transform: translate(-240px, -100px);
+        -moz-transform: translate(-240px, -100px);
+        -ms-transform: translate(-240px, -100px);
+        -o-transform: translate(-240px, -100px);
+        border-radius: 10px 0px 10px 0px;
+        -webkit-border-radius: 10px 0px 10px 0px;
+        -moz-border-radius: 10px 0px 10px 0px;
+        -ms-border-radius: 10px 0px 10px 0px;
+        -o-border-radius: 10px 0px 10px 0px;
+}
+
+.dropdown_menu ul{
+        gap: 10px;
+}
+
+:is(.mobile:hover, .mobile:focus-within) .menu-icon{
+    background-color: transparent;
+
+}
+:is(.mobile:hover, .mobile:focus-within) .menu-icon::before{
+    transform: translate(0px) rotate(-45deg);
+    -webkit-transform: translate(0px) rotate(-45deg);
+    -moz-transform: translate(0px) rotate(-45deg);
+    -ms-transform: translate(0px) rotate(-45deg);
+    -o-transform: translate(0px) rotate(-45deg);
+    background-color: var(--WhiBg);
+    box-shadow: #fff 0px 0px 10px, #fff 0px 0px 30px;;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+:is(.mobile:hover, .mobile:focus-within) .menu-icon::after{
+    transform: translate(0px) rotate(45deg);
+    -webkit-transform: translate(0px) rotate(45deg);
+    -moz-transform: translate(0px) rotate(45deg);
+    -ms-transform: translate(0px) rotate(45deg);
+    -o-transform: translate(0px) rotate(45deg);
+    background-color: var(--WhiBg);
+    box-shadow: #fff 0px 0px 10px, #fff 0px 0px 30px;;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+:is(.mobile:hover, .mobile:focus-within) .menu-btn{
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    background-color: transparent;
+}
+:is(.mobile:hover, .mobile:focus-within) .header_mobile{
+    transform: translateX(0px);
+    display: flex;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+}
+
+.hero1{
+    height: 60vh;
+}
+.catchPhrase{
+    height: 80%;
+    align-items: start;
+    justify-content: start;
+
+}
+.catchPhrase h1{
+    font-size: 8vw;
+}
+.subAction{
+    flex-flow: column wrap;
+    gap: 10px;
+    align-items: start;
+    justify-content: start;
+}
+.subAction p{
+    width:100%;
+    font-size: 16px;
+}
+.subAction a{
+    margin-top: 5px;
+}
+
+.hero2{
+    padding: 2vw 5vw;
+    height: 60vh;
+}
+.hero4{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between;
+    
+}
+.clients {
+    flex: 1 1 calc(50% - 2vw); 
+    height: auto;
+    height: 180px;
+}
+
+.hero5{
+    display: none;
+}
+
+.break{
+    height: 70px;
+}
+.eCatalogue-Slides{
+    margin-top: -10px;
+}
+.footer{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower{
+    display: flex;
+    background-color: #333333;
+}
+.seenEnough2{
+    width: 50%;
+    display: none;
+}
+
+#footerCatchPhrase{
+display: none;
 }
 #socials{
     font-size: 14px;
+    flex: 1;
+    margin-left: 3vw;
+}
 }
 
-.seenEnough2{
-width: 20%;
-}
 
-.majorLogo a img{
-width: 60%;
-}
-.otherLogos{
-    width: 75%;
-}
 
-.otherLogos a img{
-width:45px;
-}
+
     
 
+   
 
 
 
-@media (max-width >=480px) {
-    .logo-container {
-        max-width: 120px;
-    }
-    
-    .nav-list {
-        flex-direction: column;
-        align-items: flex-end;
-    }
-}
+
+
+
 
