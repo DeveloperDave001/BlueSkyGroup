@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* CSS Reset */
 * {
     margin: 0;
@@ -1156,9 +1159,20 @@ gap: .5vw;
 }
 
 @media (width >= 1000px){
-.subAction{
-    width:100%;
+    
+
+    .catchPhrase{
+    height: 60%;
+    padding-top: 50px;
+   
 }
+.catchPhrase h1{
+    margin-bottom: 20px;
+}
+.subAction{
+    width:90%;
+}
+
 .hero2{
     height:65vh;
 }
@@ -1286,8 +1300,8 @@ font-size: 12px;
         -o-border-radius: 10px;
 }
 .menu-icon, .menu-icon::before, .menu-icon::after{
-width: 40px;
-height: 4px;
+width: 30px;
+height: 3px;
 background-color: var(--priColor);
 position: absolute;
 transition: .3s all;
@@ -1298,18 +1312,18 @@ transition: .3s all;
 }
 
 .menu-icon::before{
-    transform: translate(0px, 15px);
-    -webkit-transform: translate(0px, 15px);
-    -moz-transform: translate(0px, 15px);
-    -ms-transform: translate(0px, 15px);
-    -o-transform: translate(0px, 15px);
+    transform: translate(0px, 10px);
+    -webkit-transform: translate(0px, 10px);
+    -moz-transform: translate(0px, 10px);
+    -ms-transform: translate(0px, 10px);
+    -o-transform: translate(0px, 10px);
 }
 .menu-icon::after{
-    transform: translate(-0px, -15px);
-    -webkit-transform: translate(-0px, -15px);
-    -moz-transform: translate(-0px, -15px);
-    -ms-transform: translate(-0px, -15px);
-    -o-transform: translate(-0px, -15px);
+    transform: translate(-0px, -10px);
+    -webkit-transform: translate(-0px, -10px);
+    -moz-transform: translate(-0px, -10px);
+    -ms-transform: translate(-0px, -10px);
+    -o-transform: translate(-0px, -10px);
 }
 
     .mobile_logo{
@@ -1327,8 +1341,7 @@ transition: .3s all;
     .header_mobile{
         background-color: var(--priColor);
         position: absolute;
-        display: flex;
-        transform: translateX(500px);
+        display: none;
         align-items: center;
         justify-content: center;
         width: 300px;
@@ -1341,11 +1354,7 @@ transition: .3s all;
         -moz-transition: .3s all;
         -ms-transition: .3s all;
         -o-transition: .3s all;
-        -webkit-transform: translateX(500px);
-        -moz-transform: translateX(500px);
-        -ms-transform: translateX(500px);
-        -o-transform: translateX(500px);
-        animation: slideIn 1sec;
+
 }
 
     .header_mobile nav{
@@ -1434,12 +1443,8 @@ transition: .3s all;
     background-color: transparent;
 }
 :is(.mobile:hover, .mobile:focus-within) .header_mobile{
-    transform: translateX(0px);
     display: flex;
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    -o-transform: translateX(0px);
+
 }
 
 .hero1{
@@ -1612,6 +1617,127 @@ display: none;
 
 
 }
+
+@media (width <= 560px){
+.hero1{
+    height: 55vh;
+}
+.catchPhrase .GeneralButton{
+    height: 50px;
+}
+.catchPhrase .GeneralButton img{
+    display: none;
+}
+.footer{
+    background-color: #030303;
+    height: 60vh;
+}
+.lower{
+    background-color: #030303;
+ 
+
+}
+#footerLogos{
+height: auto;
+flex-flow: row wrap;
+}
+
+.otherLogos{
+    flex: 1;
+}
+.otherLogos a img{
+    width: 40px;
+}
+#socials{
+    margin-top: 10px;
+}
+}
+
+@media (width <= 523px){
+    .hero1{
+        background-size: 150%;
+    }
+    .catchPhrase{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .mobile_header_for_logo_menu{
+        padding: 1vw 4vw;
+    }
+
+}
+
+@media (width <= 480px){
+    .GeneralButton img{
+        display: none;
+    }
+.hero1{
+    background-size: 170%;
+}
+.header_mobile{
+    height: 55vh;
+    width: 200px;
+}
+.header_mobile ul li a{
+    font-size: 16px;
+}
+.dropdown_menu{
+    width: 200px;
+    transform: translate(-210px, -45px);
+    -webkit-transform: translate(-210px, -45px);
+    -moz-transform: translate(-210px, -45px);
+    -ms-transform: translate(-210px, -45px);
+    -o-transform: translate(-210px, -45px);
+}
+
+.hero2{
+    height: 80vh;
+}
+.AboutImg{
+    margin-bottom: -10px;
+    border: none;
+}
+.About p{
+    font-size: 15px;
+    padding: 0px 20px;
+}
+
+.About{
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.hero3{
+    height: 60px;
+}
+.sideEffect{
+    height: 100%;
+    background-color: #ffffffd8;
+}
+.clients{
+    margin: 0px 20px;
+}
+.clients p{
+    font-size: 15px;
+
+}
+.footer{
+    height: 50vh;
+}
+
+#socials{
+    font-size: 13px;
+    white-space: nowrap;
+    margin-top: 0;
+}
+.footerContact2{
+    height: 25vh;
+}
+#footerLogos{
+    margin-top:0;
+}
+}
+
 
 
 
