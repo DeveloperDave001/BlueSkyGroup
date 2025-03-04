@@ -1736,6 +1736,15 @@ flex-flow: row wrap;
 #footerLogos{
     margin-top:0;
 }
+
+#disclaimer{
+    display: flex;
+    justify-content: center;
+}
+#disclaimer p{
+    font-size: 13px;
+    text-align: center;
+}
 }
 
 
