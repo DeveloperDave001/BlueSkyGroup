@@ -956,7 +956,7 @@ gap: .5vw;
 
 
 /* Disclaimer */
-.discalimer{
+.disclaimer{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1184,6 +1184,16 @@ gap: .5vw;
     
 }
 
+@media only screen and (width <= 980px){
+.header nav ul li a{
+    font-size: 12px;
+}
+
+.header nav ul li a img{
+    width: 10px;
+}
+}
+
 @media only screen and (width <= 991px){
 .hero2{
     height: 70vh;
@@ -1200,7 +1210,7 @@ gap: .5vw;
 .cardInfo p{
     font-size: 13px;
 }
-}
+
 .cardInfo .GeneralButton{
     width: 130px;
 
@@ -1225,6 +1235,8 @@ font-size: 12px;
     margin: 10px;
 }
 
+
+}
 
 @media (width <= 885px){
     body{
@@ -1348,6 +1360,12 @@ transition: .3s all;
         align-items: center;
     }
 
+    .dropdown_menu{
+        width: 300px;
+    }
+    .dropdown_menu ul li{
+        width: 100%;
+    }
     .header_mobile nav ul a{
         font-size: 22px;
     }
@@ -1359,11 +1377,11 @@ transition: .3s all;
   
     .dropdown_menu{
         z-index: 3;
-        transform: translate(-240px, -100px);
-        -webkit-transform: translate(-240px, -100px);
-        -moz-transform: translate(-240px, -100px);
-        -ms-transform: translate(-240px, -100px);
-        -o-transform: translate(-240px, -100px);
+        transform: translate(-300px, -100px);
+        -webkit-transform: translate(-300px, -100px);
+        -moz-transform: translate(-300px, -100px);
+        -ms-transform: translate(-300px, -100px);
+        -o-transform: translate(-300px, -100px);
         border-radius: 10px 0px 10px 0px;
         -webkit-border-radius: 10px 0px 10px 0px;
         -moz-border-radius: 10px 0px 10px 0px;
@@ -1479,7 +1497,7 @@ transition: .3s all;
     margin-top: -10px;
 }
 .footer{
-    height: 35vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1501,6 +1519,101 @@ display: none;
     flex: 1;
     margin-left: 3vw;
 }
+
+}
+
+@media (width <= 840px){
+.catchPhrase{
+    margin-top: 50px;
+}
+.GeneralButton{
+    height: 55px;
+}
+.hero3{
+    height: 14vh;
+}
+.sideEffect{
+    height: 100%;
+}
+.hero4Heading p{
+    text-align: center;
+}
+.clients{
+    height: 250px;
+}
+.clients p{
+    font-size: 20px;
+}
+.dropdown_menu{
+    width: 200px;
+    border: #3a3a3a solid 20px;
+}
+}
+
+@media (width <= 640px){
+    .hero2{
+        flex-flow: column wrap;
+        height: 120vh;
+        margin-bottom: 40px;
+    }
+     
+    .hero2 .About{
+        order: 2;
+        margin-top: -30px;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        
+    }
+    .AboutImg{
+        border: var(--priColor) 2px solid;
+
+    }
+    .hero2:hover .AboutImg{
+        scale: 1;
+        border: var(--priColor) 2px solid;
+        box-shadow: #03030300 0px 0px 0px;
+    
+    }
+    .About p{
+        font-size: 18px;
+    }
+    
+    .hero3{
+        margin-top: -90px;
+    }
+    .footer{
+        height: 90vh;
+
+    }
+    .lower{
+        flex-flow: row wrap;
+    }
+    #socials{
+        font-size: 16px;
+    }
+
+    #footerLogos{
+        height: 40vh;
+        flex-flow: column wrap;
+    }
+    .majorLogo{
+        width: 50%;
+    }
+    .otherLogos{
+        width: 60%;
+    }
+    .otherLogos a img{
+        width: 60px;
+    }
+
+
+    .footerContact2{
+        height: auto;
+    }
+
+
+
 }
 
 
