@@ -226,6 +226,11 @@ transition: .3s all;
 
 /* Mobile Query for Other Pages */
 @media only screen and (width >= 2200px){
+    .hero2{
+        padding: 1vw 5vw;
+        height: 90vh;
+        border: #3a3a3a solid;
+    }
 .about-us-content-box{
     height: 60vh;
 }
@@ -234,7 +239,6 @@ transition: .3s all;
 }
 .blueSky-Units{
     height: 25vw;
-    background-color: #00a2ff41;
     margin-bottom: 30px;
 }
 #myVideo{
@@ -254,89 +258,148 @@ transition: .3s all;
 .units-heading h1{
     font-size: 60px;  
 }
-.units-Illustration{
-    border: black solid;
-}
+
 .unitsLiing{
     height: 90%;
     padding: .5vw;
 }
 .unit-heading{
-    color: red;
     font-size: 30px;
 }
 .unitSections p{
     font-size: 20px;
 }
+#socials{
+    font-size: 21px;
+}
+
 
 
 }
 
-@media (width <= 885px){
+@media only screen and (width <= 2198px){
+    
+.hero2{
+    height: 80vh;
+}
+.About p{
+    font-size: 25px;
+}
+.About .GeneralButton{
+    font-size: 23px;
+    height: 60px;
+    width: 250px;
+}
+.hero3{
+    height: 140px;
+}
 
 
-    .about-header{
-        height: 30vh;
-        background-color: transparent;
-    }
-    .mobile_header_for_logo_menu{
-        padding: 2vw 5vw;
-    }
+}
 
-    .about-header p{
-        background-color: var(--priColor);
-        padding: 2vw;
+@media only screen and (width <= 1240px){
+    
+    .hero2{
+        height: 65vh;
     }
-    .about-us-content-box{
-        height: 35vh;
-        padding: 2vw 5vw;
-        background-color: var(--priColorFade3);
-
-    }
-    #side1{
-        width:100px;
-        display: none;
-        border: #3a3a3a solid;
-    }
-    .side2 p{
-    font-size: 20px;
-    }
-    .blueSky-Units {
-        flex-flow: column wrap;
-        height: 112vh;
-        padding: 2vw 5vw;
-        gap: 50px;
-    }
-    .units-info h1{
-        font-size: 60px;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    .units-info p{
+    .About p{
         font-size: 20px;
-        padding: 0px 40px;
     }
-    #myVideo{
-        border: none;
+    .About .GeneralButton{
+        font-size: 20px;
+        height: 45px;
+        width: 250px;
     }
-    .units-Illustration{
-        flex-wrap: wrap;
-        height: 95vh;
-        margin-bottom: 20px;
-    }
-    .units-Illustration a{
-         height: 300px;
-        flex: 1 1 calc(50% - 2vw); 
-
-    }
-    .hero3{
-        height: 100px;
-        margin-bottom: 15px;
+  
+    
     }
 
-}
 
+    @media only screen and (width <= 920px){
+    
+        .hero2{
+            flex-flow: column wrap;
+            height: 115vh;
+        }
+        .About{
+            order: 1;
+            margin-top: -100px;
+        }
+
+        .About p{
+            font-size: 20px;
+        }
+        .About .GeneralButton{
+            font-size: 20px;
+            height: 45px;
+            width: 250px;
+        }
+        .hero2:hover .AboutImg{
+            scale: 1;
+            box-shadow: #03030300 10px 10px 5px;
+
+        }
+        
+        }
+
+        @media only screen and (width <= 838px){
+            .About{
+        
+                margin-top: -80px;
+            }
+            }
+
+            @media only screen and (width <= 680px){
+    
+                .hero2{
+                    flex-flow: column wrap;
+                    height:100vh;
+                    }
+                .About{
+                    padding: 1vw 6vw;
+                    order: 1;
+                    margin-top: -10px;
+                }
+        
+                .About p{
+                    font-size: 20px;
+                }
+                
+                }
+
+            @media only screen and (width <= 500px){
+
+            .hero2{
+                flex-flow: column wrap;
+                height:120vh;
+                margin-bottom: 10px;
+                }
+
+            .About{
+                padding: 1vw 6vw;
+                order: 1;
+                margin-top: px;
+            }
+
+           .subHead{
+            text-align: left;
+            width: 100%;
+           }
+        
+            .About p{
+                font-size: 20px;
+            }
+            .hero3{
+                margin-top:20px ;
+            }
+            
+                
+                }
+    
+    
+
+
+ 
 
 
 

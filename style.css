@@ -976,22 +976,22 @@ gap: .5vw;
 
 
 /* Media Queries */
-@media only screen and (width >= 2200px){
-    .header{
-        background-color: #fff;
-    }
-    .header a{
-        color: var(--textColor);
-        font-size: 1.3vw;
-    }
-    .header a:hover{
-        font-size: 1.1vw;
-    }
+@media only screen and (width <= 2200px){
+.header{
+    background-color: #fff;
+}
+.header a{
+    color: var(--textColor);
+    font-size: 1.3vw;
+}
+.header a:hover{
+    font-size: 1.1vw;
+}
 
 
-    .Companylogo{
-        width: 10vw;
-    }
+.Companylogo{
+    width: 10vw;
+}
 
 .dropdown_menu{
     width: 500px;
@@ -1071,27 +1071,33 @@ gap: .5vw;
     font-size:40px;
     line-height: 39px;
 }
-#footerLogos{
-    border:red solid;
-   width: 500px;
+#footerLogos{   width: 500px;
    gap: 20px;
 }
 .majorLogo{
     width: 300px;
 }
 .otherLogos{
-    border: green solid;
     width: 500px;
 }
 .otherLogos a{
-    border: yellow solid;
+    width: 30px;
 }
+.footerContact2{
+    flex: 1;
+}
+#socials p{
+    font-size: 25px;
+    border: yello solid;
+}
+
+
 
 }
 
   
 
-@media only screen and (width >= 1300px) {
+@media only screen and (width <= 1300px) {
     .GeneralButton {
         width: 350px;
     }
@@ -1106,7 +1112,7 @@ gap: .5vw;
 
 }
 
-@media only screen and (width >= 1110px) {
+@media only screen and (width <= 1110px) {
     .GeneralButton {
         width: 350px;
     }
@@ -1144,7 +1150,7 @@ gap: .5vw;
 }
 
 
-@media only screen and (width >= 1080px){
+@media only screen and (width <= 1080px){
     .otherLogos{
         width:100%;
         margin: 10px;
@@ -1158,7 +1164,7 @@ gap: .5vw;
 }
 }
 
-@media only screen and (width >= 1024px){
+@media only screen and (width <= 1024px){
     #socials{
         font-size: 12px;
     } 
@@ -1171,7 +1177,7 @@ gap: .5vw;
 }
 }
 
-@media (width >= 1000px){
+@media screen and (width <= 1000px){
     
 
     .catchPhrase{
@@ -1265,7 +1271,7 @@ font-size: 12px;
 
 }
 
-@media (width <= 885px){
+@media screen and  (width <= 885px){
     body{
         overflow-x: hidden;
         position: relative;
@@ -1540,7 +1546,7 @@ display: none;
 
 }
 
-@media (width <= 840px){
+@media screen and (width <= 840px){
 .catchPhrase{
     margin-top: 50px;
 }
@@ -1565,7 +1571,7 @@ display: none;
 
 }
 
-@media (width <= 640px){
+@media screen and (width <= 640px){
     .hero2{
         flex-flow: column wrap;
         height: 120vh;
@@ -1631,7 +1637,7 @@ display: none;
 
 }
 
-@media (width <= 560px){
+@media screen and (width <= 560px){
 .hero1{
     height: 55vh;
 }
@@ -1666,7 +1672,7 @@ flex-flow: row wrap;
 }
 }
 
-@media (width <= 523px){
+@media screen and (width <= 523px){
     .hero1{
         background-size: 150%;
     }
@@ -1681,7 +1687,7 @@ flex-flow: row wrap;
 
 }
 
-@media (width <= 480px){
+@media screen and (width <= 480px){
     .GeneralButton img{
         display: none;
     }
