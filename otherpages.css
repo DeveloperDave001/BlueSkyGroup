@@ -11,6 +11,11 @@
     --BlaGB: #030303;
     --WhiBg: #ffffff;
 }
+body{
+    position: relative;
+}
+
+
 
 
 
@@ -214,6 +219,124 @@ transition: .3s all;
 }
 #slider img{
     object-position: top;
+}
+
+
+
+
+/* Mobile Query for Other Pages */
+@media only screen and (width >= 2200px){
+.about-us-content-box{
+    height: 60vh;
+}
+.about-us-content-box p{
+    font-size: 28px;
+}
+.blueSky-Units{
+    height: 25vw;
+    background-color: #00a2ff41;
+    margin-bottom: 30px;
+}
+#myVideo{
+    border: none;
+}
+
+.units-info h1{
+    font-size: 3vw;
+    height: 100%;
+}
+.units-info p{
+    font-size: 28px;
+}
+.units-heading{
+    margin-bottom: 30px;
+}
+.units-heading h1{
+    font-size: 60px;  
+}
+.units-Illustration{
+    border: black solid;
+}
+.unitsLiing{
+    height: 90%;
+    padding: .5vw;
+}
+.unit-heading{
+    color: red;
+    font-size: 30px;
+}
+.unitSections p{
+    font-size: 20px;
+}
+.click{
+    font-size: ;
+}
+
+}
+
+@media (width <= 885px){
+
+
+    .about-header{
+        height: 30vh;
+        background-color: transparent;
+    }
+    .mobile_header_for_logo_menu{
+        padding: 2vw 5vw;
+    }
+
+    .about-header p{
+        background-color: var(--priColor);
+        padding: 2vw;
+    }
+    .about-us-content-box{
+        height: 35vh;
+        padding: 2vw 5vw;
+        background-color: var(--priColorFade3);
+
+    }
+    #side1{
+        width:100px;
+        display: none;
+        border: #3a3a3a solid;
+    }
+    .side2 p{
+    font-size: 20px;
+    }
+    .blueSky-Units {
+        flex-flow: column wrap;
+        height: 112vh;
+        padding: 2vw 5vw;
+        gap: 50px;
+    }
+    .units-info h1{
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .units-info p{
+        font-size: 20px;
+        padding: 0px 40px;
+    }
+    #myVideo{
+        border: none;
+    }
+    .units-Illustration{
+        flex-wrap: wrap;
+        height: 95vh;
+        margin-bottom: 20px;
+    }
+    .units-Illustration a{
+         height: 300px;
+        flex: 1 1 calc(50% - 2vw); 
+
+    }
+    .hero3{
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
 }
 
 
