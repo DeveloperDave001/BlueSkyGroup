@@ -976,9 +976,7 @@ gap: .5vw;
 
 
 /* Media Queries */
-@media only screen and (width >= 2200px) {
-
-
+@media only screen and (width >= 2200px){
     .header{
         background-color: #fff;
     }
@@ -1073,10 +1071,25 @@ gap: .5vw;
     font-size:40px;
     line-height: 39px;
 }
-#socials{
-    font-size:30px;
+#footerLogos{
+    border:red solid;
+   width: 500px;
+   gap: 20px;
 }
+.majorLogo{
+    width: 300px;
 }
+.otherLogos{
+    border: green solid;
+    width: 500px;
+}
+.otherLogos a{
+    border: yellow solid;
+}
+
+}
+
+  
 
 @media only screen and (width >= 1300px) {
     .GeneralButton {
