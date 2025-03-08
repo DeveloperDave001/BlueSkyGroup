@@ -1,0 +1,169 @@
+/* Media Queries */
+@media only screen and (width <= 2200px){
+
+
+    .header{
+        background-color: #fff;
+    }
+    .header a{
+        color: var(--textColor);
+        font-size: 1.3vw;
+    }
+    .header a:hover{
+        font-size: 1.1vw;
+    }
+    
+    
+    .Companylogo{
+        width: 10vw;
+    }
+    
+    .dropdown_menu{
+        width: 500px;
+    }
+    .dropdown_menu ul li{
+        width: 100%;
+    }
+    .subAction p{
+        font-size:35px;
+        text-align:left;
+        font-size: 27px;
+    }
+    
+    
+    .GeneralButton {
+        font-size: 30px;
+        width: 350px;
+    }
+    
+    .GeneralButton:hover{
+        font-size:28px;
+    }
+    
+    .About p{
+        font-size: 27px;
+    }
+
+    .hero4Heading{
+        height: 60px;
+    }
+    .hero4Heading p{
+        font-size:40px;
+        font-weight: bold;
+    }
+    .clients{
+        background: var(--bgColor);
+    }
+    .clients img{
+        width: 25%;
+    }
+    .clients p{
+        font-size:23px;
+    }
+    
+    .cardInfo {
+        height: 60%;
+    }
+    .cardInfo div{
+        flex-flow:column wrap;
+    }
+    
+    .cardInfo div h1{
+       font-size: 30px;
+       width:100%;
+       text-align: center;
+    }
+    .cardInfo div p{
+        font-size:23px;
+        width:100%;
+        line-height: 29px;
+        text-align:center;
+     }
+     .slider-box-2 p{
+        font-size:40px;
+     }
+     .slider-2 .slides-2:nth-child(3) {
+        left: calc(66% + 600px);
+        background-size: cover;
+    }
+    .button-2 span{
+        width:100px;
+        height:100px;
+    }
+    .seenEnough p{
+        font-size:40px;
+        line-height: 39px;
+    }
+    #footerLogos{   width: 500px;
+       gap: 20px;
+    }
+    .majorLogo{
+        width: 300px;
+    }
+    .otherLogos{
+        width: 300px;
+    }
+    .otherLogos a{
+        width: 30px;
+    }
+    .footerContact2{
+        flex: 1;
+    }
+    #socials p{
+        font-size: 25px;
+        border: yello solid;
+    }
+    }
+    
+    @media only screen and (width <= 1500px){
+        .clients p{
+            font-size: 20px;
+        }
+    }
+    
+    @media only screen and (width <= 1350px){
+        .clients p{
+            font-size: 20px;
+        }
+        .hero1{
+            border: red solid;
+            height: 110vh;
+        }
+        .About p{
+            font-size: 22px;
+        }
+        .catchPhrase p{
+            font-size: 22px;
+        }
+        .GeneralButton{
+            font-size: 22px;
+            width: 220px;
+        }
+    
+        .hero4Heading p{
+            font-size: 25px;
+        }
+        .clients p{
+            font-size: 17px;
+        }
+    
+        .cardInfo div h1{
+            font-size: 23px;
+        }
+    
+        .cardInfo div p{
+            font-size: 19px;
+        }
+    
+        .break .breakEffect p{
+            font-size: 5vw;
+        }
+        .footerContact2{
+            border: red solid;
+            width: 500px;
+        }
+        .footerLogos{
+            border: rgb(251, 255, 0) solid;
+            width: 200px;
+        }
+    }
