@@ -31,7 +31,7 @@ body {
 
 /* Hero1 Styling */
 .hero1 {
-    background: linear-gradient(90deg, rgba(36, 36, 36, 0.541), #3a3a3a54), url(jacek-dylag-P1djASp78Ss-unsplash.jpg);
+    background: linear-gradient(90deg, rgba(20, 155, 165, 0.836), #3a3a3a54);
    
     background-position: center;
     background-repeat: no-repeat;
@@ -46,6 +46,26 @@ body {
 
 }
 
+.back_video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back_video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back_video{
+        width: auto;
+        height: 100%;
+    }
+}
+
 /* Nav Menu Header CSS */
 .header {
     position: fixed;
@@ -56,8 +76,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffffff;
-    backdrop-filter: blur(0px);
+    background: #ffffff00;
+    backdrop-filter: blur(10px);
     color: var(--secColor);
     z-index: 100;
 }
@@ -184,7 +204,7 @@ nav ul li:hover .dropdown_menu{
     padding: 2vw;
 }
 .catchPhrase h1{
-    color: var(--textColorw);
+    color: var(--textColor);
     font-size: 8vw;
 }
 
