@@ -45,23 +45,6 @@ setInterval(nextSlide, 1000);
 
 
 
-/* Slider-2 */
-let prev2 = document.querySelector('.next-2');
-let next2 = document.querySelector('.prev-2');
-let slider2 = document.querySelector('.slider-2');
-
-prev2.addEventListener('click', function() {
-    let slides2 = document.querySelectorAll('.slides-2');
-    slider2.appendChild(slides2[0]); 
-});
-
-next2.addEventListener('click', function() {
-    let slides2 = document.querySelectorAll('.slides-2');
-    slider2.prepend(slides2[slides2.length - 1]); 
-});
-
-
-
 // Function to animate the counter
 function animateCounter() {
     const counterElement = document.getElementById('counter');
