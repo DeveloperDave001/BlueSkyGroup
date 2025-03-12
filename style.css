@@ -31,7 +31,7 @@ body {
 
 /* Hero1 Styling */
 .hero1 {
-    background: linear-gradient(90deg, rgba(2, 41, 43, 0.705), #3a3a3a00);
+    background: linear-gradient(90deg, #02292bb4, #3a3a3a00);
    
     background-position: center;
     background-repeat: no-repeat;
