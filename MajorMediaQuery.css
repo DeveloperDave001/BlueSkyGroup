@@ -6,9 +6,10 @@
  
 
     .hero2{
-        height: 80vh;
+        height: 90vh;
         margin-bottom: 0;
     }
+
     .About p{
         font-size: 18px;
     }
@@ -74,6 +75,9 @@
  .otherLogos a img{
      width:40px;
  }
+ .final_hero{
+    height: 100vh;
+ }
  
  
  } 
@@ -117,6 +121,14 @@
     #socials{
         font-size: 12px;
     } 
+
+    .see_ecatalogue_img{
+        width: 45%;
+    }
+    .see_ecatalogue h1{
+        font-size: 12vh;
+
+    }
 
 } 
 
@@ -469,6 +481,13 @@ transition: .3s all;
     display: none;
 }
 
+.see_ecatalogue_img{
+    width: 30%;
+}
+.final_hero{
+    height: 70vh;
+}
+
 .break{
     height: 70px;
 }
@@ -518,6 +537,14 @@ display: none;
 }
 
 }
+
+    
+@media screen and  (width<=800px){
+    .final_hero{
+        height: 100vh;
+}
+}
+
 
  @media screen and (width <= 840px){
 .catchPhrase{
@@ -634,6 +661,17 @@ display: none;
     .footerContact2{
         height: auto;
     }
+    .eCatalogue_pics{
+        flex: 0;
+        display: none;
+    }
+    .final_hero{
+        height: 40vh;
+        flex-flow: column wrap;
+    }
+    .see_ecatalogue h1{
+        font-size: 10vh;
+    }
 }  
 
  @media screen and (width <= 560px){
@@ -659,6 +697,14 @@ font-size: 16px;
 }
 .footer{
     height: 80vh;
+}
+
+.final_hero{
+    height: 40vh;
+}
+
+.see_ecatalogue h1{
+    font-size: 8vh;
 }
 
 
@@ -760,6 +806,12 @@ font-size: 16px;
 #disclaimer p{
     font-size: 12px;
     text-align: center;
+}
+.final_hero{
+}
+.see_ecatalogue h1{
+    font-size: 8vh;
+    line-height: 33px;
 }
 }
  
