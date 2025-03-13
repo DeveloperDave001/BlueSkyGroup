@@ -303,7 +303,8 @@ flex-flow: column wrap;
         height:10vw;
     }
     .hero2{
-        height: 85vh;
+        height: 70vh;
+        border: green dashed;
     }
     .About p{
         font-size: 16px;
@@ -313,10 +314,16 @@ flex-flow: column wrap;
     }
 }
 
-@media screen and (width<=470px){
+@media screen and (width<=560px){
     .hero2{
-        height: 90vh;
+        height: 70vh;
     }
+}
+
+@media screen and (width<=443px){
+  .hero2{
+    height: 65vh;
+  }
 }
 
 
