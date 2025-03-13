@@ -304,7 +304,6 @@ flex-flow: column wrap;
     }
     .hero2{
         height: 70vh;
-        border: green dashed;
     }
     .About p{
         font-size: 16px;
