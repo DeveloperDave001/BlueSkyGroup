@@ -18,7 +18,7 @@ body {
 
 /* CSS Variables */
 :root {
-    --priColor: #00a2ff;
+    --priColor: #1200b4;
     --priColor2: #9e9e9e;
     --priColorFade: #00a2ff8a;
     --secColor: #ffffff;
@@ -31,7 +31,7 @@ body {
 
 /* Hero1 Styling */
 .hero1 {
-    background: linear-gradient(90deg, #02292bb4, #3a3a3a00);
+    background: linear-gradient(90deg, #b6b6b6b4, #3a3a3a00);
    
     background-position: center;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffffff00;
+    background: var(--priColor);
     backdrop-filter: blur(10px);
     color: var(--secColor);
     z-index: 100;
@@ -108,7 +108,7 @@ nav ul{
 }
 nav ul li a, .re-used{
      text-decoration: none;
-     color: var(--BlaGB);
+     color: var(--WhiBg);
      border-radius: 5px;
      background-color: transparent;
      padding: .3vw 2.5vw;
@@ -147,8 +147,8 @@ nav ul li{
     position: absolute;
     left: 0;
     top: 100%;
-    background: #f3f3f3;
-    border:1px solid #00a2ff ;
+    background: var(--WhiBg);
+    border:1px solid var(--priColor) ;
     border-radius: 0px 10px 10px 10px;
     transition: .3s all;
     -webkit-transition: .3s all;
@@ -204,7 +204,7 @@ nav ul li:hover .dropdown_menu{
     padding: 2vw;
 }
 .catchPhrase h1{
-    color: var(--priColor2);
+    color: var(--WhiBg);
     font-size: 8vw;
 }
 
@@ -675,7 +675,7 @@ gap: 20%;
     padding: 1.5vw 5vw;
 }
 .break{
-    background-color: #00a2ff;
+    background-color: var(--priColor);
     width: 100%;
     height: 100%;
     border-radius: 20px;
