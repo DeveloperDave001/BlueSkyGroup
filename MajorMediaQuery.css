@@ -482,9 +482,9 @@ transition: .3s all;
     
 }
 .clients {
-    flex: 1 1 calc(50% - 2vw); 
-    height: 20vw;
-    padding: 0px 20px;
+    flex: 1 1 calc(50% - 20vw); 
+    height: 15vw;
+    padding:20px;
 }
 .clients img{
     width: 9vw;
@@ -576,9 +576,12 @@ display: none;
 .hero4Heading p{
     text-align: center;
 }
-.clients{
-    height: 250px;
+.clients {
+    flex: 1 1 calc(50% - 20vw); 
+    height: 15vw;
+    padding:20px;
 }
+
 .clients p{
     font-size: 16px;
 }
@@ -640,41 +643,6 @@ display: none;
 
   @media screen and (width <= 640px){
     
-/*     .hero3{
-        margin-top: -90px;
-    } */
-    .footer{
-        height: 90vh;
-
-    }
-    .lower{
-        flex-flow: row wrap;
-    }
-    #socials{
-        font-size: 16px;
-        margin-top: 40px;
-    }
-
-    #footerLogos{
-        height: 40vh;
-        flex-flow: row wrap;
-        gap: 20px;
-        padding: 2vw 4vw;
-    }
-    .majorLogo a img{
-        width: 70%;
-    }
-    .otherLogos{
-        width: 50%;
-    }
-    .otherLogos a img{
-        width: 45px;
-    }
-
-
-    .footerContact2{
-        height: auto;
-    }
     .eCatalogue_pics{
         flex: 0;
         display: none;
@@ -721,14 +689,6 @@ font-size: 16px;
     font-size: 8vh;
 }
 
-
-
-.otherLogos a img{
-    width: 36px;
-}
-#socials{
-    margin-top: 20px;
-}
 } 
 
  @media screen and (width <= 523px){
@@ -783,7 +743,7 @@ font-size: 16px;
 }
 
 .hero2{
-    height: 80vh;
+    height: 95vh;
 }
 .AboutImg{
     border: none;
@@ -810,39 +770,17 @@ font-size: 16px;
 .break{
     height: 70%;
 }
-.clients{
-    margin: 0px 20px;
-    height: 150px;
-    
+.clients {
+    flex: 1 1 calc(50% - 20vw); 
+    height: 15vw;
+    padding:10px;
 }
 .clients p{
     font-size: 15px;
 
 }
 
-.footer{
-    height: 40vh;
-    padding: 0vw 3vw ;
-    justify-content: space-between;
- }
 
-#socials{
-    font-size: 12px;
-}
-.footerContact2{
-    height: 30vh;
-    padding: 0vw 2vw;
-    margin: 0;
-}
-#footerLogos{
-    height: 20vw;
-}
-.majorLogo{
-    width: 60px;
-}
-.otherLogos a img{
-    width: 30px;
-}
 
 
 #disclaimer{
