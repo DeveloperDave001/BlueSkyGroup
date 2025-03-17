@@ -39,13 +39,7 @@
     .disclaimer p{
         font-size: 20px;
     }
-    .otherLogos a img{
-        width: 4vw;
-    }
-    .majorLogo{
-        width: 19vw;
-    }
-    
+
 }
 
 @media only screen and (width <= 1110px) {
@@ -74,49 +68,12 @@
          font-size:16px;
          text-align: center;
      }
-     #socials{
-         font-size: 14px;
-     }
   
-     .seenEnough2{
-     width: 20%;
-    }
- 
- .otherLogos{
-         width: 70%;
- }
- 
- .otherLogos a img{
-     width:40px;
- }
- .final_hero{
-    height: 100vh;
- }
- 
+  
+
  
  } 
 
-
-
- @media only screen and (width <= 1080px){
-    .otherLogos{
-        width:100%;
-        margin: 10px;
-}
-#socials{
-    font-size: 12px;
-}
-.otherLogos{
-    width: 20vw;
-}
-.otherLogos a img{
-    width:40px;
-}
-
-.disclaimer_text{
-    font-size: 1vw;
-}
-} 
 
  @media only screen and (width <= 1024px){
     .clients img{
@@ -172,28 +129,28 @@
     width:35%;
 }
 
-    .clients p {
-        text-align: center;
-        font-size: 12px;
-    }
+.clients p {
+    text-align: center;
+    font-size: 12px;
+}
 
-    .cardinfo{
-        height:60%;
-    }
-    .cardInfo h1 {
-        font-size: 18px;
-    }
-    .cardInfo p {
-        font-size: 12px;
-    }
-    .header{
-        display: flex;
-       
-    }
-    .disclaimer_text{
-        text-align: center;
-        font-size: .9vw;
-    }
+.cardinfo{
+    height:60%;
+}
+.cardInfo h1 {
+    font-size: 18px;
+}
+.cardInfo p {
+    font-size: 12px;
+}
+.header{
+    display: flex;
+    
+}
+.disclaimer_text{
+    text-align: center;
+    font-size: .9vw;
+}
     
 } 
 
@@ -231,22 +188,9 @@
 .cardInfo .GeneralButton img{
     display: none;
 }
-.footer{
-    height: 50vh;
-}
-.upper{
-    display: none;
-}
-#socials{
-font-size: 12px;
-}
-
-.disclaimer_text{
-    font-size: 1vw;
 }
 
 
-} 
 
 @media screen and  (width <= 885px){
     body{
@@ -335,7 +279,7 @@ transition: .3s all;
     }
 
     .header_mobile{
-        background-color: var(--priColor);
+        background-color: var(--WhiBg);
         position: absolute;
         display: none;
         align-items: center;
@@ -366,34 +310,29 @@ transition: .3s all;
     }
 
     .dropdown_menu{
-        width: 300px;
-    }
-    .dropdown_menu ul li{
-        width: 100%;
-    }
-    .header_mobile nav ul a{
-        font-size: 22px;
-    }
-    .header_mobile nav ul a:hover{
-        font-size: 20px;
-        color: var(--textColor);
-    }
-
-  
-    .dropdown_menu{
+        width: 400px;
         z-index: 3;
-        transform: translate(-300px, -100px);
-        -webkit-transform: translate(-300px, -100px);
-        -moz-transform: translate(-300px, -100px);
-        -ms-transform: translate(-300px, -100px);
-        -o-transform: translate(-300px, -100px);
+        transform: translate(-400px, -100px);
+        -webkit-transform: translate(-400px, -100px);
+        -moz-transform: translate(-400px, -100px);
+        -ms-transform: translate(-400px, -100px);
+        -o-transform: translate(-400px, -100px);
         border-radius: 10px 0px 10px 0px;
         -webkit-border-radius: 10px 0px 10px 0px;
         -moz-border-radius: 10px 0px 10px 0px;
         -ms-border-radius: 10px 0px 10px 0px;
         -o-border-radius: 10px 0px 10px 0px;
-}
-
+    }
+    .dropdown_menu ul li{
+        width: 100%;
+    }
+    .header_mobile nav ul a{
+        font-size: 20px;
+    }
+    .header_mobile nav ul a:hover{
+        font-size: 20px;
+        color: var(--textColor);
+    }
 .dropdown_menu ul{
         gap: 10px;
 }
@@ -408,8 +347,7 @@ transition: .3s all;
     -moz-transform: translate(0px) rotate(-45deg);
     -ms-transform: translate(0px) rotate(-45deg);
     -o-transform: translate(0px) rotate(-45deg);
-    background-color: var(--WhiBg);
-    box-shadow: #fff 0px 0px 10px, #fff 0px 0px 30px;;
+    background-color: var(--priColor);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -422,8 +360,7 @@ transition: .3s all;
     -moz-transform: translate(0px) rotate(45deg);
     -ms-transform: translate(0px) rotate(45deg);
     -o-transform: translate(0px) rotate(45deg);
-    background-color: var(--WhiBg);
-    box-shadow: #fff 0px 0px 10px, #fff 0px 0px 30px;;
+    background-color: var(--priColor);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -508,47 +445,6 @@ transition: .3s all;
 .eCatalogue-Slides{
     margin-top: -10px;
 }
-.footer{
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.lower{
-    display: flex;
-    background-color: #333333;
-}
-.seenEnough2{
-    width: 50%;
-    display: none;
-}
-.footer{
-    height: 50vh;
-}
-#footerCatchPhrase{
-display: none;
-}
-#socials{
-    font-size: 14px;
-    flex: 1;
-    margin-left: 3vw;
-}
-
-.footerLogos{
-    padding: 2;
-    flex-flow: row wrap;
-
-}
-.otherLogos a img{
-    width: 4vw;
-}
-.majorLogo{
-    width: 17vw;
-    height: auto;
-}
-.disclaimer p{
-    font-size: 16px;
-}
 
 }
 
@@ -556,6 +452,20 @@ display: none;
 @media screen and  (width<=800px){
     .final_hero{
         height: 100vh;
+}
+.dropdown_menu{
+    width: 400px;
+    z-index: 3;
+    transform: translate(-400px, -100px);
+    -webkit-transform: translate(-400px, -100px);
+    -moz-transform: translate(-400px, -100px);
+    -ms-transform: translate(-400px, -100px);
+    -o-transform: translate(-400px, -100px);
+    border-radius: 10px 0px 10px 0px;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -moz-border-radius: 10px 0px 10px 0px;
+    -ms-border-radius: 10px 0px 10px 0px;
+    -o-border-radius: 10px 0px 10px 0px;
 }
 }
 
@@ -635,11 +545,6 @@ display: none;
  
 }
 
-@media screen and (width <= 660px){
-    #socials{
-        font-size: 12px;
-    }
-}
 
   @media screen and (width <= 640px){
     
@@ -654,6 +559,17 @@ display: none;
     .see_ecatalogue h1{
         font-size: 10vh;
     }
+    .dropdown_menu{
+        width: 350px;
+        transform: translate(-340px, -100px);
+        -webkit-transform: translate(-340px, -100px);
+        -moz-transform: translate(-340px, -100px);
+        -ms-transform: translate(-340px, -100px);
+        -o-transform: translate(-340px, -100px);
+}
+.dropdown_menu ul li a{
+    font-size: 18px;
+}
 }  
 
  @media screen and (width <= 560px){
@@ -676,9 +592,6 @@ display: none;
 }
 .hero4Heading p{
 font-size: 16px;
-}
-.footer{
-    height: 80vh;
 }
 
 .final_hero{
@@ -703,11 +616,6 @@ font-size: 16px;
     .mobile_header_for_logo_menu{
         padding: 1vw 4vw;
     }
-    .disclaimer p{
-        font-size: 14px;
-    }
-
-
 }
  
  @media screen and (width <= 480px){
@@ -779,18 +687,6 @@ font-size: 16px;
     font-size: 15px;
 
 }
-
-
-
-
-#disclaimer{
-    display: flex;
-    justify-content: center;
-}
-.disclaimer_text{
-    font-size: 6px;
-    text-align: center;
-}
 .final_hero{
     height: 20vh;
 }
@@ -803,6 +699,17 @@ font-size: 16px;
     font-size: 5vh;
     line-height: 30px;
     text-align: center;
+}
+}
+@media screen and (width <= 500px){
+    .dropdown_menu{
+        width: 350px;
+        transform: translate(-50px, 10px);
+        -webkit-transform: translate(-50px, 10px);
+        -moz-transform: translate(-50px, 10px);
+        -ms-transform: translate(-50px, 10px);
+        -o-transform: translate(-50px, 10px);
+        background-color: var(--BlaGB);
 }
 }
  
