@@ -9,14 +9,11 @@
     --bgColor: #f5f5f5;
     --BlaGB: #030303;
     --WhiBg: #ffffff;
+    --Offwhite: #dfdfdf;
 }
 body{
     position: relative;
 }
-
-
-
-
 
 .map{
     width: 100%;
@@ -33,7 +30,7 @@ body{
 .about-header{
     width: 100%;
     height: 20vw;   
-    background-color: var(--priColor2);
+    background-color: var(--Offwhite);
      display: flex;
     align-items: center;    
     justify-content: center;
@@ -41,8 +38,8 @@ body{
 }
 
 .about-header p {
-    font-size: 7vw;
-    color: var(--WhiBg);
+    font-size: 5vw;
+    color: var(--priColor);
     font-weight: bold;
     background-image: url(pablo-lancaster-jones-j9blCRSZ_Q4-unsplash.jpg); 
     background-size: cover;
