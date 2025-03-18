@@ -25,9 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // Autotyped Text Effect
 
 var typed = new Typed('#units', {
-    strings: ['', 'Models & Ushers', 'Print House', 
-        'Media Promotions', 
-        'TV', '360 Degree Ads', 'Outdoor Ads', 'Indoor Ads', 'Posters', 'Banners', 'Our Of Homes', 'Brand Activation', 'Brand Design', 'Promo Items', 'Event Planning'],
+    strings: ['', 'Optimize Your Brand Visibility', 'Your Sky is Limitless...', 'We Bridge the Gap'],
     typeSpeed: 50,
     backSpeed: 40,
     loop: true

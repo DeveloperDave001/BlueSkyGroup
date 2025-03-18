@@ -1,7 +1,7 @@
 // Autotyped Text Effect
 
 var typed = new Typed('#units', {
-    strings: ['', 'Optimize Your Brand Visibility', 'Your Sky is Limitless', 'We Bridge the Gap'],
+    strings: ['', 'Optimize Your Brand Visibility', 'Your Sky is Limitless...', 'We Bridge the Gap'],
     typeSpeed: 50,
     backSpeed: 40,
     loop: true

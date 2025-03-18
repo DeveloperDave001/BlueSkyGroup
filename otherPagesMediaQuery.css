@@ -65,7 +65,8 @@ flex-flow: column wrap;
 }
 }
 
-@media only screen and (width <= 855px){
+
+@media only screen and (width <= 885px){
     /* Mobile Header */
     .mobile{
         width: 100%;
@@ -150,7 +151,7 @@ flex-flow: column wrap;
         .header_mobile{
             background-color: var(--WhiBg);
             position: absolute;
-            display: flex;
+            display: none;
             align-items: center;
             justify-content: center;
             width: 300px;
@@ -256,14 +257,13 @@ flex-flow: column wrap;
 
     .GeneralButton img{
         display: none;
-        border: red solid;
     }
     .GeneralButton{
         height: 6vw;
     }
     .hero2{
         border: var(--priColor) solid 1px;
-        height: 100vh;
+        height: 150vh;
     }
     .hero2:hover .AboutImg{
         border: none;
@@ -273,6 +273,23 @@ flex-flow: column wrap;
     }
 
 }
+@media only screen and (width <= 800px){
+    .hero2{
+        height: 135vh;
+    }
+}
+@media only screen and (width <= 767px){
+    .hero2{
+        height: 90vh;
+    }
+}
+@media only screen and (width <= 640px){
+    .hero2{
+        height: 80vh;
+    }
+}
+
+
 
 @media only screen and (width <= 650px){
     .GeneralButton{
@@ -286,12 +303,11 @@ flex-flow: column wrap;
         padding: 0px px;
     }
     .about-header{
-        background-color: var(--priColor);
-        height: 30vh;
+        height: 20vh;
     }
     .about-header p{
-        color: #ffffff;   
         padding-top: 30px; 
+        font-size: 8vw;
     }
     .GeneralButton{
         width: 100%;
