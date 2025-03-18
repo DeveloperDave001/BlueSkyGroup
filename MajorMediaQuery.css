@@ -259,6 +259,10 @@
     .final_hero{
         height: 100vh;
 }
+.final_hero{
+    border: var(--priColor) dashed .2px;
+    height: 40vh;
+}
 }
 
 
