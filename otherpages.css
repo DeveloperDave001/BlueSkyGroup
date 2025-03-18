@@ -21,11 +21,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 0vw;
+    padding:2vw 3vw;
+    border: var(--priColor) dashed .2px;
+
 }
 .map iframe{
     width: 100%;
-    height: 100%;
+    height:100%;
 }
 .about-header{
     width: 100%;
