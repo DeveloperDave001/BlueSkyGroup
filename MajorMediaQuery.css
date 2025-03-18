@@ -77,7 +77,7 @@
 
  @media only screen and (width <= 1024px){
     .clients img{
-        width: 5vw;
+        width: 10vw;
     }
     .clients p{
         font-size: 14px;
@@ -125,9 +125,6 @@
 .About p{
     font-size: 16px;
 }
-.clients img{
-    width:35%;
-}
 
 .clients p {
     text-align: center;
@@ -167,9 +164,6 @@
  @media only screen and (width <= 990px){
 .hero2{
     height: 70vh;
-}
-.clients img{
-    width:30%;
 }
 .clients p{
     font-size: 12px;
@@ -233,11 +227,10 @@
 }
 .clients {
     flex: 1 1 calc(50% - 20vw); 
-    height: 15vw;
-    padding:20px;
+    height: auto;
 }
 .clients img{
-    width: 9vw;
+    width: 15vw;
 }
 
 

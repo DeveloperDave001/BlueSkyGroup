@@ -357,7 +357,7 @@ color: var(--priColor2);
     }
     .hero4{
         width: 100%;
-        height: 8vw;
+        height: 15vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -372,8 +372,6 @@ color: var(--priColor2);
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 1.3vw;
-        gap: 1vw;
         flex-flow: row wrap;
         background: transparent;
         position: relative;
@@ -381,12 +379,13 @@ color: var(--priColor2);
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
+        border: var(--priColor) dashed .2px;
 }
 
 
 
     .clients img {
-        width: 50%;
+        width: 80%;
         object-fit: cover;
     }
 
