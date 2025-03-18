@@ -407,10 +407,6 @@ font-size: 16px;
         background: linear-gradient(90deg, #02292bea, #3a3a3a80);
 
     }
-    .catchPhrase h1{
-        text-decoration: underline;
-        color: #fff;
-    }
     .subAction p{
         font-size: 14px;
         margin-top: 20px;
