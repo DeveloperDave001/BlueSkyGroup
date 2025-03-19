@@ -14,25 +14,6 @@
 body{
     position: relative;
 }
-.helpYou{
-    height: 10vw;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.helpYou .GeneralButton{
-    height: 100%;
-    width: 70%;
-    font-size: 5vw;
-    font-weight: bold;
-}
-.helpYou .GeneralButton img{
-    display: none;
-}
-.helpYou .GeneralButton:hover{
-    background-color: var(--priColor2);
-}
 
 .map{
     width: 100%;
@@ -41,6 +22,8 @@ body{
     align-items: center;
     justify-content: center;
     padding:2vw 3vw;
+    border: var(--priColor) dashed .2px;
+
 }
 .map iframe{
     width: 100%;
