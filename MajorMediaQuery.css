@@ -68,12 +68,13 @@
          font-size:16px;
          text-align: center;
      }
-  
-  
-
- 
  } 
 
+ @media only screen and (width <= 1080px){
+#final_hero{
+    height: 70vh;
+}
+ }
 
  @media only screen and (width <= 1024px){
     .clients img{
@@ -159,6 +160,10 @@
 .header nav ul li a img{
     width: 10px;
 }
+.final_hero .GeneralButton{
+    height: 10vh;
+    font-size: 20px;
+}
 } 
 
  @media only screen and (width <= 990px){
@@ -237,12 +242,12 @@
 .hero5{
     display: none;
 }
-
-.see_ecatalogue_img{
-    width: 30%;
+.eCatalogue_pics{
+    flex: 0;
+    display: none;
 }
 .final_hero{
-    height: 70vh;
+    height: 25vh;
 }
 
 .break{
@@ -251,47 +256,49 @@
 .eCatalogue-Slides{
     margin-top: -10px;
 }
-
 }
-
+@media screen and (width <= 840px){
+    .catchPhrase{
+        margin-top: 50px;
+    }
+    .GeneralButton{
+        height: 55px;
+    }
+    .hero3{
+        height: 14vh;
+    }
+    .sideEffect{
+        height: 100%;
+    }
+    .hero4Heading p{
+        text-align: center;
+    }
+    .clients {
+        flex: 1 1 calc(50% - 20vw); 
+        height: 15vw;
+        padding:20px;
+    }
     
-@media screen and  (width<=800px){
-    .final_hero{
-        height: 100vh;
-}
-.final_hero{
-    border: var(--priColor) dashed .2px;
-    height: 40vh;
-}
-}
+    .clients p{
+        font-size: 16px;
+    }
+    #final_hero{
+        height: 40vh;
+
+    }
+    .final_hero h1{
+        font-size: 7vw;
+    }
+    .clients{
+    padding: 0;
+    height: 30vh;
+    }
+    .clients img{
+        width: 80%;
+    }
+    } 
 
 
- @media screen and (width <= 840px){
-.catchPhrase{
-    margin-top: 50px;
-}
-.GeneralButton{
-    height: 55px;
-}
-.hero3{
-    height: 14vh;
-}
-.sideEffect{
-    height: 100%;
-}
-.hero4Heading p{
-    text-align: center;
-}
-.clients {
-    flex: 1 1 calc(50% - 20vw); 
-    height: 15vw;
-    padding:20px;
-}
-
-.clients p{
-    font-size: 16px;
-}
-} 
 
 @media screen and (width <= 750px){
     .hero1{
@@ -344,17 +351,22 @@
 
   @media screen and (width <= 640px){
     
-    .eCatalogue_pics{
-        flex: 0;
-        display: none;
-    }
-    .final_hero{
-        height: 40vh;
-        flex-flow: column wrap;
-    }
+
     .see_ecatalogue h1{
-        font-size: 10vh;
+        font-size: 8vh;
 }  
+  }
+  @media screen and (width <= 600px){
+    
+
+    .see_ecatalogue h1{
+        font-size: 7vh;
+}  
+
+.final_hero .GeneralButton{
+    width: 100%;
+    font-size: 25px;
+}
   }
 
  @media screen and (width <= 560px){
@@ -379,14 +391,16 @@
 font-size: 16px;
 }
 
-.final_hero{
+} 
+@media screen and (width <= 500px){
+#final_hero{
     height: 40vh;
 }
-
 .see_ecatalogue h1{
-    font-size: 8vh;
-}
+    font-size: 5vh;
 } 
+
+}
 
  @media screen and (width <= 523px){
     .hero1{
@@ -438,24 +452,12 @@ font-size: 16px;
 }
 .clients {
     flex: 1 1 calc(50% - 20vw); 
-    height: 15vw;
-    padding:10px;
 }
 .clients p{
     font-size: 15px;
 
 }
-.final_hero{
-    height: 20vh;
-}
-.see_ecatalogue{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.see_ecatalogue h1{
-    font-size: 5vh;
-    line-height: 30px;
-    text-align: center;
+#final_hero{
+    height: 35vh;
 }
 }

@@ -263,8 +263,15 @@ flex-flow: column wrap;
     }
     .hero2{
         border: var(--priColor) solid 1px;
-        height: 150vh;
+        height: 110vh;
     }
+    .hero2 img{
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
     .hero2:hover .AboutImg{
         border: none;
     }
@@ -273,23 +280,12 @@ flex-flow: column wrap;
     }
 
 }
-@media only screen and (width <= 800px){
-    .hero2{
-        height: 135vh;
-    }
-}
+
 @media only screen and (width <= 767px){
-    .hero2{
-        height: 90vh;
-    }
+.hero2{
+    height: 100vh;
 }
-@media only screen and (width <= 640px){
-    .hero2{
-        height: 80vh;
-    }
 }
-
-
 
 @media only screen and (width <= 650px){
     .GeneralButton{
@@ -298,7 +294,7 @@ flex-flow: column wrap;
     }
 }
 
-@media screen and (width<=500px){
+@media only screen and (width <= 650px){
     .mobile_header_for_logo_menu{
         padding: 0px px;
     }
@@ -313,9 +309,6 @@ flex-flow: column wrap;
         width: 100%;
         height:10vw;
     }
-    .hero2{
-        height: 70vh;
-    }
     .About p{
         font-size: 16px;
     }
@@ -324,16 +317,14 @@ flex-flow: column wrap;
     }
 }
 
-@media screen and (width<=560px){
-    .hero2{
-        height: 70vh;
-    }
+@media only screen and (width <= 600px){
+.hero2{
+    height: 90vh;
 }
-
-@media screen and (width<=443px){
-  .hero2{
-    height: 65vh;
-  }
+.footer .GeneralButton{
+    width: 100%;
+    margin-left: 20px;
+}
 }
 
 
