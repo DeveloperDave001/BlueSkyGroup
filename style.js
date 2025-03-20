@@ -86,5 +86,33 @@ window.onload = function() {
 }; 
 
 
+/* Dark Mode ? Light Mode */
+const toggleButton = document.querySelector("[data-theme-toggle]");
+
+function switchTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+    
+    toggleButton.innerText = newTheme === "dark" ? "Light Mode" : "Dark Mode";
+    toggleButton.setAttribute("aria-label", newTheme === "dark" ? "Change to light theme" : "Change to dark theme");
+}
+
+toggleButton.addEventListener("click", switchTheme);
+
+// Check for saved user preference on page load
+const savedTheme = localStorage.getItem("theme");
+if (savedTheme) {
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    toggleButton.innerText = savedTheme === "dark" ? "Light Mode" : "Dark Mode";
+}
+
+
+
+
+
+
 
 
