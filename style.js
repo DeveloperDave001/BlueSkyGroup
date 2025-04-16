@@ -12,7 +12,7 @@ var typed = new Typed('#units', {
 var typed = new Typed('#units2', {
     strings: ['', 'Models & Ushers', 'Print House', 
         'Media Promotions', 
-        'TV', '360 Degree Ads', 'Outdoor Ads', 'Indoor Ads', 'Posters', 'Banners', 'Our Of Homes', 'Brand Activation', 'Brand Design', 'Promo Items', 'Event Planning'],
+        'TV', '360 Degree Ads', 'Outdoor Ads', 'Indoor Ads', 'Posters', 'Banners', 'Out Of Homes', 'Brand Activation', 'Brand Design', 'Gift Items', 'Event Planning'],
     typeSpeed: 50,
     backSpeed: 40,
     loop: true
@@ -109,6 +109,17 @@ if (savedTheme) {
     toggleButton.innerText = savedTheme === "dark" ? "Light Mode" : "Dark Mode";
 }
 
+/* Music */
+const audio = document.getElementById('background-music');
+const volumeControl = document.getElementById('volume-control');
+
+// Set initial volume
+audio.volume = volumeControl.value;
+
+// Update volume based on slider input
+volumeControl.addEventListener('input', function() {
+    audio.volume = this.value;
+});
 
 
 

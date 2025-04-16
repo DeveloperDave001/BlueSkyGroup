@@ -326,12 +326,6 @@
     .AboutImg .slider{
         height: 90%;
     }
-    .hero2:hover .AboutImg{
-        scale: 1;
-        border: var(--priColor) 2px solid;
-        box-shadow: #03030300 0px 0px 0px;
-    
-    }
     .About p{
         font-size: 18px;
     }

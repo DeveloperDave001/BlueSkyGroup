@@ -330,6 +330,21 @@ flex-flow: column wrap;
     margin-left: 20px;
 }
 }
+@media only screen and (width <= 500px){
+.hero2{
+    height: 80vh;
+    border: red dashed;
+}
+.hero2 .AboutImg .slider .slides .slide{
+    border: green dashed 3px;
+    margin-bottom: -20px;
+}
+
+.footer .GeneralButton{
+    width: 100%;
+    margin-left: 20px;
+}
+}
 
 
 
