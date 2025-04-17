@@ -131,7 +131,7 @@ blockquote {
 a.text-tag:link {
   border: 1px solid #e5e5e5;
   display: inline-block;
-  float: left;
+  float:left;
   font-size: 0.75rem;
   margin: 1px 2px 1px 0;
   padding: 6px 9px;
@@ -487,7 +487,8 @@ aside.aside-left {
   background-color: #fff !important;
 }
 .background-primary, .primary-color-primary .background-primary {
-  background-color: #E4A600 !important;
+  background-color: rgba(0, 53, 228, 0.541) !important;
+  backdrop-filter: blur(2px);
 }
 .background-dark, .primary-color-dark .background-primary {
   background-color: #002633 !important; 

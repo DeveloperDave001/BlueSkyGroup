@@ -12,7 +12,7 @@ var typed = new Typed('#units', {
 var typed = new Typed('#units2', {
     strings: ['', 'Models & Ushers', 'Print House', 
         'Media Promotions', 
-        'TV', '360 Degree Ads', 'Outdoor Ads', 'Indoor Ads', 'Posters', 'Banners', 'Out Of Homes', 'Brand Activation', 'Brand Design', 'Gift Items', 'Event Planning'],
+        'BlueSky TV', '360 Degree Ads', 'Outdoor Ads', 'Indoor Ads', 'Posters', 'Banners', 'Out Of Homes', 'Brand Activation', 'Brand Design', 'Gift Items', 'Event Planning'],
     typeSpeed: 50,
     backSpeed: 40,
     loop: true
